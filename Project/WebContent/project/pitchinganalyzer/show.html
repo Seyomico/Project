@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>データ閲覧トップ</title>
+	<link rel="stylesheet" type="text/css" href="show.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="show.js"></script>
+
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>閲覧するデータの選択</h2>
+	<!-- <form method="post" action="start"> -->
+	<form id="target">
+
+		<div class="page">
+			<label>
+				<input type="radio" name="which" value="inputData" checked>過去の入力データ
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="which" value="analyzedData">分析データ
+			</label>
+			<br>
+			<input id="start_button" type="button" value="決定" />
+		</div>
+		<br>
+		<div class="information">
+			閲覧中の投手名：
+			<span id=name></span>
+		</div>
+		</from>
+
+		<!-- </form> -->
+</body>
+<script type="text/javascript">
+	//<!--
+	firstShow();
+	//-->
+</script>
+
+</html>

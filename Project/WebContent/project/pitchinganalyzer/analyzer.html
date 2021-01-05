@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>データ分析</title>
+	<link rel="stylesheet" type="text/css" href="analyzer.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="analyzer.js"></script>
+</head>
+
+<body>
+	<h1><span>Pitching Analyzer</span></h1>
+	<hr>
+	<h2>分析データの表示</h2>
+	<div class="page">
+		<p>
+			<a href="top.html">終了する</a>
+		</p>
+
+		<h3>球種割合</h3>
+		<canvas id="target">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+		</canvas>
+
+		<h3>球種別球速</h3>
+		<div id="speed"></div>
+
+		<h3>球種別被打率</h3>
+		<div id="hit"></div>
+
+	</div>
+</body>
+<script type="text/javascript">
+	//<!--
+	sendAnalyzerRequest();
+	//-->
+</script>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>データ分析</title>
+	<link rel="stylesheet" type="text/css" href="analyzer.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="analyzer.js"></script>
+</head>
+
+<body>
+	<h1><span>Pitching Analyzer</span></h1>
+	<hr>
+	<h2>分析データの表示</h2>
+	<div class="page">
+		<p>
+      <a href="top.html">終了する</a>
+    </p>
+		<input type="button" name="display" value="表示" id="display_button">
+
+		<h3>球種割合</h3>
+		<canvas id="target" width="500" height="500">
+
+		</canvas>
+
+		<h3>球種別球速</h3>
+		<h3>球種別被打率</h3>
+	</div>
+</body>
+
+</html> -->

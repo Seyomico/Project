@@ -1,0 +1,266 @@
+#varieties {
+  font-size: 20px;
+}
+
+#speed {
+  font-size: 20px;
+}
+
+.count {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+#course{
+  margin-left: 100px;
+  margin-top: -1000px;
+  text-align: center;
+  position: relative;
+}
+
+#couse canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#decide_button {
+  position: absolute;
+  margin-left: 400px;
+}
+
+.left_left_higt_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_high_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.center_high_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_high_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_right_high_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_left_high {
+  clear: both;
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.center_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_right_high {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_left_midle {
+  clear: both;
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_midle {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.center_midle {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.rigt_midle {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_rigt_midle {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_left_low {
+  clear: both;
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.center_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : white ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_right_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_left_low_low {
+  clear: both;
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.left_low_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.center_low_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_low_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+.right_right_low_low {
+  float : left ;
+  width : 50px ;
+  height : 60px ;
+  background : gray ;
+  border : 1px solid black ;
+  opacity: 0.5
+}
+
+#main_div {
+  position: absolute;
+  margin-left : 500px;
+}

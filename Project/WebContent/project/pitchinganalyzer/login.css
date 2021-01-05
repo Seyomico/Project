@@ -1,0 +1,6 @@
+#login_error {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 100px;
+  color: red;
+}

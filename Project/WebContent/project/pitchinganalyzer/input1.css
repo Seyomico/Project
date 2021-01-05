@@ -1,0 +1,17 @@
+.next {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -175px;
+}
+
+.information {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+input#out {
+  height: 30px;
+  width: 60px;
+  font-size: 30px;
+}

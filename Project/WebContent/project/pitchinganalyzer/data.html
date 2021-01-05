@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>データ表示</title>
+	<link rel="stylesheet" type="text/css" href="data.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="input2.css">
+	<script src="data.js"></script>
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>入力データの表示</h2>
+	<div class="page">
+		閲覧中の投手名：
+		<span id="name"></span>
+		<a href="top.html">終了する</a>
+		<br>
+		<select name="data" id="data">
+		</select>
+		<br>
+		<input type="button" name="change_button" value="変更" id="change_button">
+		<canvas id="canvas" width="1000px" height="1000px"></canvas>
+		<div id="course">
+			<div class="left_left_higt_high"> </div>
+			<div class="left_high_high"> </div>
+			<div class="center_high_high"> </div>
+			<div class="right_high_high"> </div>
+			<div class="right_right_high_high"> </div>
+			<div class="left_left_high"> </div>
+			<div class="left_high"> </div>
+			<div class="center_high"> </div>
+			<div class="right_high"> </div>
+			<div class="right_right_high"> </div>
+			<div class="left_left_midle"> </div>
+			<div class="left_midle"> </div>
+			<div class="center_midle"> </div>
+			<div class="rigt_midle"> </div>
+			<div class="right_rigt_midle"> </div>
+			<div class="left_left_low"> </div>
+			<div class="left_low"> </div>
+			<div class="center_low"> </div>
+			<div class="right_low"> </div>
+			<div class="right_right_low"> </div>
+			<div class="left_left_low_low"> </div>
+			<div class="left_low_low"> </div>
+			<div class="center_low_low"> </div>
+			<div class="right_low_low"> </div>
+			<div class="right_right_low_low"> </div>
+		</div>
+	</div>
+	<div class="detail" id="detail">
+	</div>
+	<div class="detail2" id="detail2">
+	</div>
+	<!-- </form> -->
+	<script type="text/javascript">
+		//<!--
+		sendFirstDataRequest();
+		//-->
+	</script>
+</body>
+
+</html>

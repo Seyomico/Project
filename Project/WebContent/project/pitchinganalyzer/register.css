@@ -1,0 +1,15 @@
+input#decide_button {
+  position: absolute;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.next {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -430px;
+}
+
+#name {
+  font-size: 20px;
+}

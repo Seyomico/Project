@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>投球データ入力</title>
+	<link rel="stylesheet" type="text/css" href="input2.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="input2.js"></script>
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>投球データの入力</h2>
+	<!-- <form method="post" action="start"> -->
+	<div class="page">
+		<form id="target">
+			球種
+			<select name="variety" id = "varieties">
+			</select>
+			<br />
+			<label for="speed">球速</label>
+			<input id="speed" type="number" name="speed" value="140" min="90" max="165" /> km/h
+			<br />
+			結果
+			<br>
+			<label>
+			<input type="radio" name="result" value="1" checked>空振り</label>
+			<label>
+			<input type="radio" name="result" value="2">見逃しストライク</label>
+			<label>
+			<input type="radio" name="result" value="0">ボール</label>
+			<label>
+			<input type="radio" name="result" value="3">ファール</label>
+			<label>
+			<input type="radio" name="result" value="4">インプレー</label>
+			<br />
+			打席結果
+			<br>
+			<select class="finish" name="finish" id="finish">
+				<option value="継続" selected> 継続 </option>
+				<option value="併殺打"> 併殺打 </option>
+				<option value="アウト"> アウト </option>
+				<option value="単打"> 単打 </option>
+				<option value="二塁打"> 二塁打 </option>
+				<option value="三塁打"> 三塁打 </option>
+				<option value="併殺打"> ホームラン </option>
+				<option value="アウト"> 四球 </option>
+				<option value="単打"> 死球 </option>
+				<option value="二塁打"> 犠打 </option>
+			</select>
+			<br><br>
+			<input id="decide_button" type="button" value="送信" />
+		</form>
+	</div>
+	<canvas id="canvas" width="1000px" height="1000px"></canvas>
+	<div id="course">
+		<div class="left_left_higt_high"> </div>
+		<div class="left_high_high"> </div>
+		<div class="center_high_high"> </div>
+		<div class="right_high_high"> </div>
+		<div class="right_right_high_high"> </div>
+		<div class="left_left_high"> </div>
+		<div class="left_high"> </div>
+		<div class="center_high"> </div>
+		<div class="right_high"> </div>
+		<div class="right_right_high"> </div>
+		<div class="left_left_midle"> </div>
+		<div class="left_midle"> </div>
+		<div class="center_midle"> </div>
+		<div class="rigt_midle"> </div>
+		<div class="right_rigt_midle"> </div>
+		<div class="left_left_low"> </div>
+		<div class="left_low"> </div>
+		<div class="center_low"> </div>
+		<div class="right_low"> </div>
+		<div class="right_right_low"> </div>
+		<div class="left_left_low_low"> </div>
+		<div class="left_low_low"> </div>
+		<div class="center_low_low"> </div>
+		<div class="right_low_low"> </div>
+		<div class="right_right_low_low"> </div>
+	</div>
+	<!-- </form> -->
+
+	<div id="main_div">
+
+	</div>
+	<div class="count" id = count>
+		B：<span id = "B">0</span>
+		<br>
+		S：<span id = "S">0</span>
+		<br>
+		O：<span id = "O"></span>
+	</div>
+</body>
+<script type="text/javascript">
+//<!--
+	sendFirstInput2Request();
+//-->
+</script>
+</html>

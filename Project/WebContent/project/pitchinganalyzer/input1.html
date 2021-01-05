@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>状況の入力</title>
+	<link rel="stylesheet" type="text/css" href="input1.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="input1.js"></script>
+
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>現在の状況を入力</h2>
+	<!-- <form method="post" action="start"> -->
+	<div class="page">
+		<h3><label for="out">アウトカウント</label></h3>
+		<input id="out" type="number" name="out" value="0" min="0" max="2" />
+		<br />
+		<form id="target">
+			<h3>打者</h3>
+			<input type="radio" name="batter" value="right" id="right" checked>
+			<label for="right">右打ち</label> <br> <br>
+			<input type="radio" name="batter" value="left" id="left">
+			<label for="left">左打ち</label>
+		</form>
+		<div class="next">
+			<h3>ランナー</h3>
+			<input type="checkbox" name="runner" value="1base" id="1st">
+			<label for="1st">一塁</label> <br>
+			<input type="checkbox" name="runner" value="2base" id="2nd">
+			<label for="2nd">二塁</label> <br>
+			<input type="checkbox" name="runner" value="3base" id="3rd">
+			<label for="3rd">三塁</label> <br>
+			<br />
+			<input id="decide_button" type="button" value="送信" />
+		</div>
+	</div>
+	<div class="information">
+		入力中の投手名：
+		<span id=pitcherName></span>
+		<br>
+		利き腕：
+		<span id=dominant_hand></span>
+	</div>
+	<!-- </form> -->
+</body>
+
+</html>

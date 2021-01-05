@@ -1,0 +1,22 @@
+#data {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.detail {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+.detail2 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 350px;
+}
+
+#change_button {
+  position: absolute;
+  margin-top: 50px;
+  font-size: 20px;
+}

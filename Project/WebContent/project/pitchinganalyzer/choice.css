@@ -1,0 +1,16 @@
+#decide_button {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.radio {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: -60px;
+}
+
+#name {
+  margin-top: 30px;
+  font-size: 20px;
+}

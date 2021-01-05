@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>投手の新規登録</title>
+	<link rel="stylesheet" type="text/css" href="register.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="register.js"></script>
+
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>投手の情報を入力</h2>
+	<!-- <form method="post" action="start"> -->
+	<div class="page">
+		<h3><label for="name">投手名</label></h3>
+		<input id="name" type="text" name="name" />
+		<h3>利き腕</h3>
+		<form id="target">
+			<input type="radio" name="dominant_hand" value="right" id="right" checked>
+			<label for="right">右投げ</label>
+			<input type="radio" name="dominant_hand" value="left" id="left">
+			<label for="left">左投げ</label>
+
+			<h3>フォーム</h3>
+			<input type="radio" name="form" value="over" id="over" checked>
+			<label for="over">オーバースロー</label> <br>
+			<input type="radio" name="form" value="3quarter" id="3quarter">
+			<label for="3quarter">スリークォーター</label> <br>
+			<input type="radio" name="form" value="side" id="side">
+			<label for="side">サイドスロー</label> <br>
+			<input type="radio" name="form" value="under" id="under">
+			<label for="under">アンダースロー</label>
+		</form>
+
+		<div class="next">
+			<h3>球種</h3>
+			<input type="checkbox" name="variety" value="4seam" id="a" checked>
+			<label for="a">フォーシーム</label> <br>
+			<input type="checkbox" name="variety" value="2seam" id="b">
+			<label for="b">ツーシーム</label> <br>
+			<input type="checkbox" name="variety" value="cutter" id="c">
+			<label for="c">カッター</label> <br>
+			<input type="checkbox" name="variety" value="slider" id="d">
+			<label for="d">スライダー</label> <br>
+			<input type="checkbox" name="variety" value="fork" id="e">
+			<label for="e">フォーク</label> <br>
+			<input type="checkbox" name="variety" value="curve" id="f">
+			<label for="f">カーブ</label> <br>
+			<input type="checkbox" name="variety" value="change" id="g">
+			<label for="g">チェンジアップ</label> <br>
+			<input type="checkbox" name="variety" value="sinking_fast" id="h">
+			<label for="h">シュート</label> <br>
+			<input type="checkbox" name="variety" value="sinker" id="i">
+			<label for="i">シンカー</label> <br>
+			<input type="checkbox" name="variety" value="screw" id="j">
+			<label for="j">スクリュー</label>
+			<input id="decide_button" type="button" value="登 録" />
+		</div>
+	</div>
+	<!-- </form> -->
+</body>
+
+</html>

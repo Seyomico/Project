@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>投手選択</title>
+	<link rel="stylesheet" type="text/css" href="choice.css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="choice.js"></script>
+
+</head>
+
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr />
+	<h2>投手の選択</h2>
+	<!-- <form method="post" action="start"> -->
+	<form id="target">
+		<div class="page">
+			<select name="name" id="name">
+			</select>
+			<br> <br>
+			<form id=target>
+				<div class="radio">
+					<label>
+						<input type="radio" name="which" value="input" checked>記録の入力
+					</label>
+					<br> <br>
+					<label>
+						<input type="radio" name="which" value="show">記録の閲覧
+					</label>
+				</div>
+			</form>
+			<br>
+			<input type="button" name="decide_button" value="決定" id="decide_button">
+
+		</div>
+	</form>
+</body>
+<script type="text/javascript">
+	//<!--
+	sendFirstChoiceRequest();
+	//-->
+</script>
+
+</html>

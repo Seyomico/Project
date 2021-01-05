@@ -1,0 +1,6 @@
+input#start_button {
+  margin-left: 200px;
+  margin-top: 20px;
+
+  display: inline-block;
+}

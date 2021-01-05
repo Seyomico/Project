@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Pitching Analyzerトップ</title>
+	<link rel="stylesheet" type="text/css" href="top.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="top.js"></script>
+
+</head>
+<body>
+	<h1><span>Pitching Analyzer</span></h1>
+	<hr>
+	<h2>作業を選択</h2>
+	<!-- <form method="post" action="start"> -->
+		<div class="page">
+			<form id = "target">
+				<label>
+					<input type="radio" name="which" value="register" checked>投手の新規登録
+				</label>
+				<br>
+				<label>
+		    <input type="radio" name="which" value="choice">登録済みの投手を選択
+				</label>
+				<br>
+					<input id="start_button" type="button" value="次に進む >"/>
+			</form>
+		</div>
+		<div class="user">
+			ユーザー名:  <span id="username"></span>
+			<a href="index.html">ログアウト</a>
+		</div>
+	<!-- </form> -->
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>ユーザー登録</title>
+	<link rel="stylesheet" type="text/css" href="signin.css"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="submit.css">
+	<script src="signin.js"></script>
+
+</head>
+<body>
+	<h1>Pitching Analyzer</h1>
+	<hr/>
+	<h2>登録したいユーザー名とパスワードの入力</h2>
+	<!-- <form method="post" action="start"> -->
+		<div class="page">
+			<label for="name">ユーザー名 : </label>
+			<input id="name" type="text" name="name"/>
+	    <br/>
+			<label for="password">パスワード : </label>
+	    <input id = "password" type="password" name="password" size="10" maxlength="8" minlength="4"required>
+	    <br/>
+	    <input id="send_button" type="button" value="これで登録"/>
+		</div>
+		<span id = signin_error> </span>
+	<!-- </form> -->
+</body>
+</html>
